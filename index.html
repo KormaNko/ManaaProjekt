@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="sk">
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-    <title>Valentine Letter</title>
+    <title>Valentínsky list</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,19 +12,32 @@
       href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
   </head>
+
   <body>
+    <div class="side left">
+      <img src="letter1.jpg">
+      <img src="letter2.jpg">
+      <img src="letter3.jpg">
+      <img src="letter4.jpg">
+    </div>
+    
+    <div class="side right">
+      <img src="letter5.jpg">
+      <img src="letter6.jpg">
+      <img src="letter7.jpg">
+      <img src="letter8.jpg">
+    </div>
     <!-- Envelope Screen -->
     <div id="envelope-container">
       <img src="envelope.png" alt="Envelope" id="envelope" />
-      <p>♡ Letter for You ♡</p>
+      <p>♡ List pre teba ♡</p>
     </div>
 
     <!-- Letter Screen -->
     <div id="letter-container">
       <div class="letter-window">
-        <h1 id="letter-title">Will you be my Valentine?</h1>
+        <h1 id="letter-title">Budeš moja Valentínka?</h1>
 
         <img src="cat_heart.gif" class="cat" id="letter-cat" />
 
@@ -32,15 +45,16 @@
           <img src="yes.png" class="btn yes-btn" alt="Yes" />
 
           <div class="no-wrapper">
-            <img src="no.png" class="btn no-btn" alt="No" />
+            <img src="no.png" class="btn no-btn" alt="Nie" />
           </div>
         </div>
 
         <p id="final-text" class="final-text" style="display: none">
-          <strong>Valentine Date:</strong> Meow Restaurant at 7pm. Dress fancy!
+          <strong>Uz cosokoro pridem:</strong> cca o 18:00
         </p>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
